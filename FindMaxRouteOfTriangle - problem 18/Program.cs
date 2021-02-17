@@ -18,7 +18,7 @@ namespace FindMaxRouteOfTriangle
             List<List<int>> triangle = new Program().createTriangle();
 
             int MaxPath = new Program().getMaxPath(triangle);
-            Console.WriteLine(MaxPath.ToString());
+            Console.WriteLine("Max: "+MaxPath.ToString());
             Console.ReadKey();
         }
 
